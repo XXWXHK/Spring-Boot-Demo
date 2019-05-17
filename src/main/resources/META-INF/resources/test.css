@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+META-INF/resources/
+
+静态文件优先级：1
+
+静态文件访问时，先找本文件夹中是否存在，如果不存在，找比本文件夹优先级低一个的文件夹，一次类推
+
+优先级从高到低：
+
+\demo\src\main\resources\META-INF\resources
+\demo\src\main\resources\resources
+\demo\src\main\resources\static
+\demo\src\main\resources\public
