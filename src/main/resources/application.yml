@@ -1,0 +1,25 @@
+# 服务器 配置
+server:
+  # 服务器端口（https）
+  port: 443
+  ssl:
+    # SSL 配置文件的地址（本项目是使用 jdk KeyTool 生产）（开发时请妥善保管）
+    key-store: classpath:config/cert/demo_xuxiaowei_com_cn.jks
+    # SSL 文件的密码（开发时请妥善保管）
+    key-store-password: aaaaaa
+#
+# Spring Boot 配置
+spring:
+  #
+  # Thymeleaf 配置
+  thymeleaf:
+    # 是否启用模板缓存（开发时推荐关闭，防止内容已修改，而页面显示内容为历史缓存）
+    cache: false
+#
+# 日志 配置
+logging:
+  level:
+    # web 日志扫描
+    web: debug
+    # 项目（本项目的包结构） 日志扫描
+    cn.com.xuxiaowei: debug
