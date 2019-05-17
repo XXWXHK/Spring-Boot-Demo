@@ -20,6 +20,9 @@ Spring Boot 项目演示模板。
 - Template
 	- Thymeleaf             是一个适用于Web和独立环境的现代服务器端Java模板引擎。
 
+- SQL
+    - MySQL                 MySQL JDBC驱动程序
+    
 # 其他说明
 
 - 将本地 host 添加 127.0.0.1 demo.xuxiaowei.com.cn，
