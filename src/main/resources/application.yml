@@ -14,6 +14,11 @@ spring:
   # 数据库 配置
   datasource:
     # 数据库 驱动名称（包括包名）
+    # 如果使用 com.mysql.jdbc.Driver，控制台会出现警告：
+    # Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'.
+    # The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+    # 加载类`com.mysql.jdbc.Driver'。 这已被弃用。
+    # 新的驱动程序类是`com.mysql.cj.jdbc.Driver'。 驱动程序通过SPI自动注册，通常不需要手动加载驱动程序类。
     driver-class-name: com.mysql.cj.jdbc.Driver
     # 数据库 URL（URL后面的参数不是必须的，需要根据数据库版本、MySQL驱动版本进行调整；demo：数据库名，useSSL：关闭数据库的SSL连接，serverTimezone：时区设置为东8区）
     url: jdbc:mysql://127.0.0.1:3306/demo?useSSL=false&serverTimezone=GMT%2B8
