@@ -6,10 +6,10 @@ Spring Boot 项目演示模板。
 ## SSL
 
 - 创建开发版的SSL，生产环境请使用 阿里云SSL、腾讯云SSL（自己有域名即可申请，阿里云每个账户可申请20个，腾讯云每个主域名可申请20个）
-- 配置 SSL（https），使用 
+- 配置 SSL（https） 
 - http 自动重定向到 https
 
-# Spring Boot 依赖
+# Spring Boot 依赖（创建项目时可选）
 
 - Spring Boot
     - 2.1.5.RELEASE
@@ -22,6 +22,12 @@ Spring Boot 项目演示模板。
 
 - SQL
     - MySQL                 MySQL JDBC驱动程序
+    
+# 其他依赖（创建项目时不可选）
+
+- spring-boot-configuration-processor   
+    
+    - 注解处理器
     
 # 其他说明
 
