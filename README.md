@@ -17,6 +17,9 @@ Spring Boot 项目演示模板。
 - Spring Boot
     - 2.1.5.RELEASE
 
+- Core
+    - Lombok                注解（Getter/Setter）。
+
 - Web
     - Web                   使用Tomcat和Spring MVC进行全栈Web开发。
 
