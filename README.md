@@ -45,7 +45,7 @@ Spring Boot 项目演示模板。
 
 - 图片验证码
     
-    - patchca
+    - patchca                           GitHub 图片验证码
     
 # 其他说明
 
