@@ -16,9 +16,27 @@
 
     <properties>
         <java.version>1.8</java.version>
+
+
+        <!-- MyBatis Plus Boot Starter Start -->
+        <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
+        <!-- 2019年4月26日 -->
+        <!-- Spring Boot 整合 MyBatis Plus 必须依赖 -->
+        <mybatis-plus-boot-starter.verssion>3.1.1</mybatis-plus-boot-starter.verssion>
+        <!-- MyBatis Plus Boot Starter End -->
+
+
     </properties>
 
     <dependencies>
+
+
+        <!-- - MyBatis Plus Boot Starter -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus-boot-starter.verssion}</version>
+        </dependency>
 
 
         <!-- 注解处理器 -->

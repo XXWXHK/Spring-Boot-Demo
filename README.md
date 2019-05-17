@@ -31,6 +31,10 @@ Spring Boot 项目演示模板。
 - spring-boot-configuration-processor   
     
     - 注解处理器
+
+- MyBatis Plus
+
+    - MyBatis Plus Boot Starter         Spring Boot 整合 MyBatis Plus 必须依赖。
     
 # 其他说明
 

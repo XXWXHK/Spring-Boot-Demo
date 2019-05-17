@@ -11,6 +11,17 @@ server:
 # Spring Boot 配置
 spring:
   #
+  # 数据库 配置
+  datasource:
+    # 数据库 驱动名称（包括包名）
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 数据库 URL（URL后面的参数不是必须的，需要根据数据库版本、MySQL驱动版本进行调整；demo：数据库名，useSSL：关闭数据库的SSL连接，serverTimezone：时区设置为东8区）
+    url: jdbc:mysql://127.0.0.1:3306/demo?useSSL=false&serverTimezone=GMT%2B8
+    # 数据库 用户名
+    username: root
+    # 数据库 密码
+    password: root
+  #
   # Thymeleaf 配置
   thymeleaf:
     # 是否启用模板缓存（开发时推荐关闭，防止内容已修改，而页面显示内容为历史缓存）
