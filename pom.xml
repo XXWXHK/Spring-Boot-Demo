@@ -32,6 +32,11 @@
         <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
         <!-- MyBatis Plus Boot Starter End -->
 
+        <!-- GitHub 图片验证码 Patchca 依赖 -->
+        <!-- 以下依赖可继承 -->
+        <!-- https://mvnrepository.com/artifact/com.github.bingoohuang/patchca -->
+        <!-- 2014年9月18日 -->
+        <patchca.version>0.0.1</patchca.version>
 
     </properties>
 
@@ -59,6 +64,13 @@
             <version>${spring-boot-starter-velocity.version}</version>
         </dependency>
 
+        <!-- GitHub 图片验证码 Patchca -->
+        <dependency>
+            <groupId>com.github.bingoohuang</groupId>
+            <artifactId>patchca</artifactId>
+            <version>${patchca.version}</version>
+        </dependency>
+        
 
         <!-- 注解处理器 -->
         <!-- https://docs.spring.io/spring-boot/docs/2.1.1.RELEASE/reference/html/configuration-metadata.html#configuration-metadata-annotation-processor -->

@@ -42,6 +42,10 @@ Spring Boot 项目演示模板。
     - MyBatis Plus Generator            MyBatis Plus 代码生成器 依赖。
     
     - Spring Boot Starter Velocity      Velocity 模板引擎，MyBatis Plus 代码生成器 默认模板引擎。
+
+- 图片验证码
+    
+    - patchca
     
 # 其他说明
 
