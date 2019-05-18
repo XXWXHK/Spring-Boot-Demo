@@ -47,5 +47,5 @@ Spring Boot 项目演示模板，将整合完整项目所需及技术、示例�
 # 其他说明
 
 - 将本地 host 添加 127.0.0.1 demo.xuxiaowei.com.cn，
-    即可使用 http://demo.xuxiaowei.com.cn、https://demo.xuxiaowei.com.cn 访问本项目，
+    即可使用 [http://demo.xuxiaowei.com.cn](http://demo.xuxiaowei.com.cn)、[https://demo.xuxiaowei.com.cn](https://demo.xuxiaowei.com.cn) 访问本项目，
     SSL 未验证，浏览器会报警告，显示连接不安全，测试环境忽略即可，开发环境使用阿里云SSL、腾讯云SSL。
