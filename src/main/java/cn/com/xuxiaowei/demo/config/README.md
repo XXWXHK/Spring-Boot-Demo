@@ -12,6 +12,14 @@
     
         - http(80) 自动重定向到 https(443)
 
+    - MybatisPlusConfig
+    
+        - Mybatis Plus 配置
+            
+            - SQL执行效率插件
+            
+            - 分页插件
+    
     - ServletConfig
     
         - Servlet 配置文件
