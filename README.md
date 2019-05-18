@@ -18,22 +18,19 @@ Spring Boot 项目演示模板，将整合完整项目所需及技术、示例�
     - 2.1.5.RELEASE
 
 - Core
-    - Lombok                注解（Getter/Setter）。
+    - Lombok                    注解（Getter/Setter）。
+    - Configuration Processor   为您的自定义配置键生成元数据（注解处理器）。
 
 - Web
-    - Web                   使用Tomcat和Spring MVC进行全栈Web开发。
+    - Web                       使用Tomcat和Spring MVC进行全栈Web开发。
 
 - Template
-	- Thymeleaf             是一个适用于Web和独立环境的现代服务器端Java模板引擎。
+	- Thymeleaf                 是一个适用于Web和独立环境的现代服务器端Java模板引擎。
 
 - SQL
-    - MySQL                 MySQL JDBC驱动程序
+    - MySQL                     MySQL JDBC驱动程序
     
 # 其他依赖（创建项目时不可选）
-
-- spring-boot-configuration-processor   
-    
-    - 注解处理器
 
 - MyBatis Plus
 
