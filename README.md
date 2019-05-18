@@ -1,5 +1,5 @@
 # Spring-Boot-Demo
-Spring Boot 项目演示模板。
+Spring Boot 项目演示模板，将整合完整项目所需及技术、示例、要点。
 
 # 本项目技术
 
